@@ -171,6 +171,14 @@
 
 ## 🔥 Video-LLM
 
+<details>
+<summary>Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding, 2023 -> Video-LLaMA</summary>
+
+[paper](https://arxiv.org/pdf/2306.02858) | [Github](https://github.com/DAMO-NLP-SG/Video-LLaMA) | [website](https://video-llama.github.io/)
+
+**TLDR:** Instruction-tuned audio-visual language model that couples video and audio encoders with LLaMA via projection layers and gated fusion, enabling open-ended video QA, captioning, and dialogue after multi-stage pretraining on web video captions and curated instruction data.
+</details>
+
 
 ### Training Set
 | Dataset | Source | Data Source | Quantity | Cnstruction Method |
