@@ -9,6 +9,10 @@
     - [Training Set](#training-set)
   - [🔥 Preference Learning](#-preference-learning)
     - [Training Set](#training-set-1)
+  - [🔥 Video-LLM](#-video-llm)
+    - [Training Set](#training-set-2)
+    - [Training Recipe](#training-recipe)
+    - [Evaluation Dataset](#evaluation-dataset)
 
 
 ## 🔥 Supervised Finetuning
@@ -17,7 +21,7 @@
 
   <summary>Visual Instruction Tuning, NIPS 2023 Oral -> LLaVA-Instruct-150K</summary>
 
-  [Paper](https://arxiv.org/abs/2304.08485) | [Github](https://github.com/haotian-liu/LLaVA) | [Project](https://llava-vl.github.io/)
+  [paper](https://arxiv.org/abs/2304.08485) | [Github](https://github.com/haotian-liu/LLaVA) | [website](https://llava-vl.github.io/)
   
 </details>
 
@@ -25,7 +29,7 @@
 
   <summary>Improved Baselines with Visual Instruction Tuning, CVPR 2024 Highlight -> LLaVA-Instruct-665K</summary>
 
-  [Paper](https://arxiv.org/abs/2310.03744) | [Github](https://github.com/haotian-liu/LLaVA) | [Project](https://llava-vl.github.io/)
+  [paper](https://arxiv.org/abs/2310.03744) | [Github](https://github.com/haotian-liu/LLaVA) | [website](https://llava-vl.github.io/)
 
 </details>
 
@@ -33,7 +37,7 @@
 
   <summary>CogVLM: Visual Expert for Pretrained Language Models, 2023 -> CogVLM-SFT-311K</summary>
 
-  [Paper](https://arxiv.org/abs/2311.03079) | [Github](https://github.com/THUDM/CogVLM)
+  [paper](https://arxiv.org/abs/2311.03079) | [Github](https://github.com/THUDM/CogVLM)
 
 </details>
 
@@ -41,7 +45,7 @@
 
   <summary>LLaVA-OneVision: Easy Visual Task Transfer, 2024 -> LLaVA-OneVision-Data</summary>
 
-  [Paper](https://arxiv.org/abs/2408.03326) | [Github](https://github.com/LLaVA-VL/LLaVA-NeXT) | [Project](https://llava-vl.github.io/blog/2024-08-05-llava-onevision/)
+  [paper](https://arxiv.org/abs/2408.03326) | [Github](https://github.com/LLaVA-VL/LLaVA-NeXT) | [website](https://llava-vl.github.io/blog/2024-08-05-llava-onevision/)
 
 </details>
 
@@ -49,7 +53,7 @@
 
   <summary>ShareGPT4V: Improving Large Multi-Modal Models with Better Captions, ECCV 2024 -> ShareGPT4V</summary>
     
-  [Paper](https://arxiv.org/abs/2311.12793) | [Github](https://github.com/ShareGPT4Omni/ShareGPT4V) | [Project](https://sharegpt4v.github.io/)
+  [paper](https://arxiv.org/abs/2311.12793) | [Github](https://github.com/ShareGPT4Omni/ShareGPT4V) | [website](https://sharegpt4v.github.io/)
 
 </details>
 
@@ -57,7 +61,7 @@
 
   <summary>ShareGPT4Video: Improving Video Understanding and Generation with Better Captions, NIPS 2024 -> ShareGPT4Video</summary>
 
-  [Paper](https://arxiv.org/abs/2406.04325v1) | [Github](https://github.com/ShareGPT4Omni/ShareGPT4Video) | [Project](https://sharegpt4video.github.io/)
+  [paper](https://arxiv.org/abs/2406.04325v1) | [Github](https://github.com/ShareGPT4Omni/ShareGPT4Video) | [website](https://sharegpt4video.github.io/)
 
 </details>
 
@@ -65,7 +69,7 @@
 
   <summary>Infinity-MM: Scaling Multimodal Performance with Large-Scale and High-Quality Instruction Data, 2024 -> Infinity-MM</summary>
 
-  [Paper](https://arxiv.org/abs/2410.18558)
+  [paper](https://arxiv.org/abs/2410.18558)
 
 </details>
 
@@ -73,7 +77,7 @@
 
   <summary>Video Instruction Tuning with Synthetic Data, 2024 -> LLaVA-Video-178K</summary>
 
-  [Paper](https://arxiv.org/abs/2410.02713) | [Github](https://github.com/LLaVA-VL/LLaVA-NeXT) | [Project](https://llava-vl.github.io/blog/2024-09-30-llava-video)
+  [paper](https://arxiv.org/abs/2410.02713) | [Github](https://github.com/LLaVA-VL/LLaVA-NeXT) | [website](https://llava-vl.github.io/blog/2024-09-30-llava-video)
 
 </details>
 
@@ -81,7 +85,7 @@
   
   <summary>LLaVA-NeXT: Tackling Multi-image, Video, and 3D in Large Multimodal Models, 2024 -> M4-Instruct-Data</summary>
 
-  [Paper](https://arxiv.org/abs/2407.07895) | [Github](https://github.com/LLaVA-VL/LLaVA-NeXT) | [Project](https://llava-vl.github.io/blog/2024-06-16-llava-next-interleave/)
+  [paper](https://arxiv.org/abs/2407.07895) | [Github](https://github.com/LLaVA-VL/LLaVA-NeXT) | [website](https://llava-vl.github.io/blog/2024-06-16-llava-next-interleave/)
 
 </details>
 
@@ -89,7 +93,7 @@
   
   <summary>Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs, 2024 -> Cambrian-10M</summary>
 
-  [Paper](https://arxiv.org/abs/2406.16860) | [Github](https://github.com/cambrian-mllm/cambrian) | [Project](https://cambrian-mllm.github.io/) 
+  [paper](https://arxiv.org/abs/2406.16860) | [Github](https://github.com/cambrian-mllm/cambrian) | [website](https://cambrian-mllm.github.io/) 
 
 </details>
 
@@ -117,7 +121,7 @@
 
   <summary>RLHF-V: Towards trustworthy mllms via behavior alignment from fine-grained correctional human feedback, CVPR 2024 -> RLHF-V-Dataset</summary>
 
-  [Paper](https://arxiv.org/abs/2312.00849) | [Github](https://github.com/RLHF-V/RLHF-V) | [Project](https://rlhf-v.github.io/)
+  [paper](https://arxiv.org/abs/2312.00849) | [Github](https://github.com/RLHF-V/RLHF-V) | [website](https://rlhf-v.github.io/)
 
 </details>
 
@@ -125,7 +129,7 @@
 
   <summary>RLAIF-V: Aligning MLLMs through Open-Source AI Feedback for Super GPT-4V Trustworthiness, 2024 -> RLAIF-V-Dataset</summary>
 
-  [Paer](https://arxiv.org/abs/2405.17220) | [Github](https://github.com/RLHF-V/RLAIF-V)
+  [paper](https://arxiv.org/abs/2405.17220) | [Github](https://github.com/RLHF-V/RLAIF-V)
 
 </details>
 
@@ -133,7 +137,7 @@
 
   <summary>Silkie: Preference Distillation for Large Visual Language Models, CoRR 2023 -> VLFeedback</summary>
 
-  [Paper](https://arxiv.org/abs/2312.10665) | [Github](https://github.com/vlf-silkie/VLFeedback) | [Project](https://vlf-silkie.github.io/)
+  [paper](https://arxiv.org/abs/2312.10665) | [Github](https://github.com/vlf-silkie/VLFeedback) | [website](https://vlf-silkie.github.io/)
 
 </details>
 
@@ -141,7 +145,7 @@
   
   <summary>SPA-VL: A Comprehensive Safety Preference Alignment Dataset for Vision Language Model, 2024 -> SPA-VL</summary>
   
-  [Paper](https://arxiv.org/abs/2406.12030) | [Github](https://github.com/EchoseChen/SPA-VL-RLHF) | [Project](https://sqrti.github.io/SPA-VL/)
+  [paper](https://arxiv.org/abs/2406.12030) | [Github](https://github.com/EchoseChen/SPA-VL-RLHF) | [website](https://sqrti.github.io/SPA-VL/)
 
 </details>
 
@@ -149,7 +153,7 @@
   
   <summary>Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization, 2024 -> MMPR</summary>
   
-  [Paper](https://arxiv.org/abs/2411.10442) | [Github](https://github.com/OpenGVLab/InternVL/tree/main/internvl_chat/shell/internvl2.0_mpo) | [Project](https://internvl.github.io/blog/2024-11-14-InternVL-2.0-MPO/)
+  [paper](https://arxiv.org/abs/2411.10442) | [Github](https://github.com/OpenGVLab/InternVL/tree/main/internvl_chat/shell/internvl2.0_mpo) | [website](https://internvl.github.io/blog/2024-11-14-InternVL-2.0-MPO/)
 
 </details>
 
@@ -165,3 +169,29 @@
 
 
 
+## 🔥 Video-LLM
+
+
+### Training Set
+| Dataset | Source | Data Source | Quantity | Cnstruction Method |
+|------------|--------------|--------------|--------------|--------------|
+[VideoInstruct100K](https://github.com/mbzuai-oryx/Video-ChatGPT/blob/main/docs/train_video_chatgpt.md) | [Video-ChatGPT](https://arxiv.org/pdf/2306.05424) | ActivityNet | 100k | |
+
+
+
+### Training Recipe
+| Method | Training Data | Eval Data | Recipe | Architecture |
+|------------|--------------|--------------|--------------|--------------|
+| [Video-LLaMA](https://arxiv.org/pdf/2306.02858) | <li> PT video/image-caption: [Webvid-2.5M](https://www.robots.ox.ac.uk/~vgg/research/frozen-in-time/), [LLaVA-CC3M](https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md) <li> SFT image-video inst tuning: [llava-150k](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K), [minigpt-4 3k](https://github.com/Vision-CAIR/MiniGPT-4/blob/main/dataset/README_2_STAGE.md), [videochat-11k](https://github.com/OpenGVLab/InternVideo/tree/main/Data/instruction_data)|place_holder | place_holder | place_holder |
+| [Video-LLaMA2](https://arxiv.org/pdf/2406.07476) | <li> PT video/image-caption: [Webvid-10M](https://www.robots.ox.ac.uk/~vgg/research/frozen-in-time/), [Panda-70M](https://snap-research.github.io/Panda-70M/), [VIDAL-10M](https://github.com/PKU-YuanGroup/LanguageBind/blob/main/DATASETS.md), [InternVid-10M], CC3M, [DCI](https://github.com/facebookresearch/DCI) <li> SFT image-video inst tuning: [videochat-11k](https://github.com/OpenGVLab/InternVideo/tree/main/Data/instruction_data), In-house data-12k, [Kinetics-710](https://github.com/OpenGVLab/UniFormerV2/blob/main/DATASET.md), [SthSthv2](https://developer.qualcomm.com/software/ai-datasets/something-something), NExTQA, CLEVRER, EgoQA, Tgif, WebVidQA, RealworldQA, Hm3d, Valley, VideoChatGPT, VideoChat, VTimeLLM, VideoChat2, sharegpt4v, [llava-665k](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K/blob/main/llava_v1_5_mix665k.json)| place_holder | place_holder | place_holder |
+| [VideoChat](https://arxiv.org/pdf/2305.06355)|<li> PT video/image-caption: [Webvid-10M](https://www.robots.ox.ac.uk/~vgg/research/frozen-in-time/), COCO Cap, VG, SBU, CC3M, CC12M <li> SFT image-video inst tuning: [videochat-11k](https://github.com/OpenGVLab/InternVideo/tree/main/Data/instruction_data), [minigpt-4 3k](https://github.com/Vision-CAIR/MiniGPT-4/blob/main/dataset/README_2_STAGE.md), 4k from [llava](https://github.com/haotian-liu/LLaVA?tab=readme-ov-file) | place_holder | place_holder | place_holder |
+| [VideoChat2](https://arxiv.org/pdf/2305.06355)|<li> Stage1: [Webvid-10M](https://www.robots.ox.ac.uk/~vgg/research/frozen-in-time/), CC3M, CC12M <li> Stage2: COCO, VG, SBU, [InternVid-10M](https://huggingface.co/datasets/OpenGVLab/InternVid) <li> Stage3: [VideoChat2-IT](https://huggingface.co/datasets/OpenGVLab/VideoChat2-IT) | place_holder | place_holder | place_holder |
+| [Valley](https://arxiv.org/pdf/2306.07207) | <li> PT video/image-caption: [LLaVA-CC3M](https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md)，[Valley-webvid2M-Pretrain-703K ](https://huggingface.co/datasets/luoruipu1/Valley-webvid2M-Pretrain-703K) <li> SFT inst tuning: [llava-150k](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K), [videochat-11k](https://github.com/OpenGVLab/InternVideo/tree/main/Data/instruction_data), [Valley-Instruct-65K](https://huggingface.co/datasets/luoruipu1/Valley-Instruct-65k) | place_holder | place_holder | place_holder |
+| [Video-ChatGPT](https://arxiv.org/pdf/2306.05424) | [VideoInstruct100K](https://github.com/mbzuai-oryx/Video-ChatGPT/blob/main/docs/train_video_chatgpt.md) | place_holder | place_holder | place_holder |
+| [Video-LLaVA](https://arxiv.org/pdf/2311.10122) | <li> PT video/image-caption (same as [Valley](https://arxiv.org/pdf/2306.07207)): [LLaVA-CC3M](https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md)，[Valley-webvid2M-Pretrain-703K](https://huggingface.co/datasets/luoruipu1/Valley-webvid2M-Pretrain-703K) <li> SFT inst tuning: [llava-150k](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K), [VideoInstruct100K](https://github.com/mbzuai-oryx/Video-ChatGPT/blob/main/docs/train_video_chatgpt.md) | [Video-ChatGPT Quantitative Evaluation](https://github.com/mbzuai-oryx/Video-ChatGPT/tree/main/quantitative_evaluation) | place_holder | place_holder |
+
+### Evaluation Dataset
+
+| Dataset | Source | Data Source | Task | Construction Method |
+|------------|--------------|--------------|--------------|--------------|
+[MVBench](https://github.com/OpenGVLab/Ask-Anything) | [MVBench](https://arxiv.org/abs/2311.17005) | Various | MC-VQA | |
