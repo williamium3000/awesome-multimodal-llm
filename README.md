@@ -13,9 +13,9 @@
     - [Training Set](#training-set-2)
     - [Training Recipe](#training-recipe)
     - [Evaluation Dataset](#evaluation-dataset)
-  - [🔥 MM-CoT](#-mm-cot)
-    - [Training Dataset](#training-dataset)
-    - [Evaluation Dataset](#evaluation-dataset-1)
+  - [🔥 Reasoning](#-reasoning)
+    - [MM-CoT](#mm-cot)
+    - [Reinforcement Learning](#reinforcement-learning)
 
 
 ## 🔥 Supervised Finetuning
@@ -338,4 +338,4 @@ Improves inference-time reasoning quality or credit assignment through scaling, 
   - **LLaVA-Reasoner** — Ruohong Zhang et al. “Improve Vision Language Model Chain-of-Thought Reasoning.” arXiv:2410.16198, 2024.
 </details>
 
-#### Reinforcement Learning
+### Reinforcement Learning
