@@ -13,6 +13,9 @@
     - [Training Set](#training-set-2)
     - [Training Recipe](#training-recipe)
     - [Evaluation Dataset](#evaluation-dataset)
+  - [🔥 MM-CoT](#-mm-cot)
+    - [Training Dataset](#training-dataset)
+    - [Evaluation Dataset](#evaluation-dataset-1)
 
 
 ## 🔥 Supervised Finetuning
