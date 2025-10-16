@@ -207,9 +207,11 @@
 |------------|--------------|--------------|--------------|--------------|
 [MVBench](https://github.com/OpenGVLab/Ask-Anything) | [MVBench](https://arxiv.org/abs/2311.17005) | Various | MC-VQA | |
 
-## 🔥 MM-CoT
+## 🔥 Reasoning
 
-### Training Dataset
+### MM-CoT
+
+#### Training Dataset
 
 | **Name & Link**                                                                                                                  | **Intro**                                                                                                                                                                                              | **Previews**             |
 | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ |
@@ -227,7 +229,7 @@
 
 
 
-### Evaluation Dataset
+#### Evaluation Dataset
 
 | **Name & Link**                                     | **Intro**                                                                                      | **Previews** |
 | --------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------ |
@@ -240,9 +242,8 @@
 | EMMA                                                | 2,788 multimodal QA tasks (T, I) for scientific reasoning with MC & open formats.              |              |
 | VisualProcessBench                                  | 2,866 math & science multimodal tasks focused on stepwise process reasoning.                   |              |
 
-### Methodologies of MM-CoT
 
-#### 1. Rationale Construction (Prompt-based vs Learning-based)
+##### Rationale Construction (Prompt-based vs Learning-based)
 Focuses on how chain-of-thoughts (CoTs) are constructed or taught to the model. Prompt-based: IPVR, VIC, PKRD-CoT, VoT, VideoAgent, LPE, AntGPT. Learning-based: Multimodal-CoT, PCoT, MC-CoT, G-CoT, LoT.
 
 <details>
@@ -262,7 +263,7 @@ Focuses on how chain-of-thoughts (CoTs) are constructed or taught to the model. 
   - **LoT** — Shanshan Zhong et al. “Let’s Think Outside the Box: Exploring Leap-of-Thought in Large Language Models with Creative Humor Generation.” CVPR 2024.
 </details>
 
-#### 2. Procedural Reasoning (Structured or Autonomous Staging)
+##### Procedural Reasoning (Structured or Autonomous Staging)
 Designs explicit multi-stage reasoning flows—either predefined (structured) or adaptive (autonomous). Defined (structured) staging: BDoG, Det-CoT, VisualSketchpad, CoTDet, CoCoT, SegPref. Autonomous staging: PS-CoT, DDCoT, AVQA-CoT, CoT-PT, Image-of-Thought.
 
 <details>
@@ -281,7 +282,7 @@ Designs explicit multi-stage reasoning flows—either predefined (structured) or
   - **Image-of-Thought** — Qiji Zhou et al. “Image-of-Thought Prompting for Visual Reasoning Refinement in Multimodal Large Language Models.” arXiv:2405.13872, 2024.
 </details>
 
-#### 3. Information Enhancement (World / Context Retrieval & Tools)
+##### Information Enhancement (World / Context Retrieval & Tools)
 Uses external knowledge or tool-chains to improve factuality or grounding during reasoning. Expert/tool augmentation: Chain-of-Image, Det-CoT, L3GO. World-knowledge retrieval: RAGAR, AR-MCTS, G-CoT, Chain-of-Action, KAM-CoT. In-context memory/retrieval: MCoT-Memory, MGCoT, CCoT.
 
 <details>
@@ -300,7 +301,7 @@ Uses external knowledge or tool-chains to improve factuality or grounding during
   - **CCoT** — Chancharik Mitra et al. “Compositional Chain-of-Thought Prompting for Large Multimodal Models.” CVPR 2024.
 </details>
 
-#### 4. Structural & Attention-Driven Reasoning
+##### Structural & Attention-Driven Reasoning
 Focuses on representation structure, cross-modal attention, or modality-specific alignment to improve reasoning interpretability. Asynchronous modality modeling: Audio-CoT, Grounding-Prompter, TextCoT, Cantor, VIC. With attention: Meaformer (EMNLP 2023) introduces hierarchical multimodal transformers with neighbor features and entity-type-aware self-attention.
 
 <details>
@@ -314,7 +315,7 @@ Focuses on representation structure, cross-modal attention, or modality-specific
   - **Meaformer** — EMNLP 2023 (hierarchical multimodal transformer with neighbor features and entity-type-aware self-attention).
 </details>
 
-#### 5. Training-Time Injection & Visual Conditioning
+##### Training-Time Injection & Visual Conditioning
 Modifies the learning or fine-tuning process itself to optimize where and how vision is injected or preserved during long CoT reasoning. Injection during training: TVC (ACL 2025) performs visual conditioning by shifting visual tokens to critical reasoning stages via dynamic pruning. Related approaches include long-CoT curriculum or modality rebalancing methods such as Visual-o1.
 
 <details>
@@ -324,7 +325,7 @@ Modifies the learning or fine-tuning process itself to optimize where and how vi
   - **Visual-o1** — Minheng Ni et al. “Visual-o1: Understanding Ambiguous Instructions via Multi-modal Multi-turn Chain-of-Thoughts Reasoning.” arXiv:2410.03321, 2024.
 </details>
 
-#### 6. Optimization & Test-Time Scaling
+##### Optimization & Test-Time Scaling
 Improves inference-time reasoning quality or credit assignment through scaling, reinforcement, or meta-optimization. Slow thinking/iterative reasoning: Visual-o1, LlamaV-o1, Virgo. Reinforcement learning and self-refinement: Deepseek-R1, LLaVA-Reasoner.
 
 <details>
@@ -336,3 +337,5 @@ Improves inference-time reasoning quality or credit assignment through scaling, 
   - **Deepseek-R1** — Daya Guo et al. “Deepseek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.” arXiv:2501.12948, 2025.
   - **LLaVA-Reasoner** — Ruohong Zhang et al. “Improve Vision Language Model Chain-of-Thought Reasoning.” arXiv:2410.16198, 2024.
 </details>
+
+#### Reinforcement Learning
