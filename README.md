@@ -211,34 +211,33 @@
 
 ### Training Dataset
 
-| **Name & Link**                                                                                                                  | **Intro**                                                                                                                                                                                              | **Previews**             |
-| -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ |
-| [ScienceQA: Learn to Explain (NeurIPS 2022)](https://scienceqa.github.io/)                                                       | 19k multimodal science QA examples (T+I). Teaches CoT reasoning via explanation rationales.<br>**Enrichments:** T-SciQ [55] improves ScienceQA with LLM-generated teaching signals for smaller models. | ![ScienceQA preview 1](./assets/mm-cot/scienceqa-1.png) ![ScienceQA preview 2](./assets/mm-cot/scienceqa-2.png)  |
-| [M3CoT (ACL 2024)](https://arxiv.org/pdf/2405.16473)                                                                             | 7.86k multimodal examples with long, 10-step reasoning traces for complex CoT reasoning.                                                                                                               | ![M3CoT preview](./assets/mm-cot/m3cot.png)              |
-| [A-OKVQA (A-OKVQAA-OKVQA)](https://huggingface.co/datasets/HuggingFaceM4/A-OKVQA/viewer?views%5B%5D=train&row=0)                 | 25k visual QA tasks requiring world knowledge; integrates textual and visual reasoning.                                                                                                                | ![A-OKVQA preview](./assets/mm-cot/a-okvqa.png)              |
-| [Xkev / LLaVA-CoT-100k](https://huggingface.co/datasets/Xkev/LLaVA-CoT-100k)                                                     | 100k multimodal QA samples distilled from LLaVA models with Chain-of-Thought supervision.                                                                                                              |                          |
-| VideoCoT [159]                                                                                                                   | Video-based CoT reasoning dataset for temporal and action understanding.                                                                                                                               |                          |
-| VideoEspresso                                                                                                                    | Large-scale VideoQA dataset emphasizing temporal multimodal reasoning.                                                                                                                                 |                          |
-| MAVIS                                                                                                                            | Math-focused multimodal reasoning dataset bridging visual math and textual explanation.                                                                                                                |                          |
-| [ICoT (ICLR 2025)](https://github.com/jungao1106/ICoT)                                                                           | Interleaved-Modal Chain-of-Thought dataset (ICLR 2025), focusing on interleaved visual-text reasoning.                                                                                                 | ![ICoT preview](./assets/mm-cot/icot.png)              |
-| [Visual CoT (NeurIPS 2024)](https://huggingface.co/datasets/deepcs233/Visual-CoT)                                                | Comprehensive multimodal CoT benchmark unifying image reasoning, text reasoning, and rationales.                                                                                                       | ![Visual CoT preview 1](./assets/mm-cot/visual-cot-1.png) ![Visual CoT preview 2](./assets/mm-cot/visual-cot-2.png)  |
-| [CoMT (AAAI 2025)](https://dl.acm.org/doi/10.1609/aaai.v39i22.34538) | [HF Dataset](https://huggingface.co/datasets/czh-up/CoMT) | “Chain of Multi-modal Thought” benchmark for VQA and multimodal CoT (3.8k samples).                                                                                                                    | ![CoMT preview 1](./assets/mm-cot/comt-1.png) ![CoMT preview 2](./assets/mm-cot/comt-2.png) |
-| EMMA-X                                                                                                                           | Augmented robotics reasoning dataset derived from Bridge V2 for embodied multimodal reasoning.                                                                                                         |                          |
-
+| Dataset | Model | Modality | Quantity | Notes | Link |
+|---------|-------|----------|----------|-------|------|
+| ScienceQA (NeurIPS 2022) | ScienceQA | Text + Image | 19k | Teaches CoT reasoning via detailed explanations; T-SciQ enriches prompts for smaller models.<br>![ScienceQA preview 1](./assets/mm-cot/scienceqa-1.png) ![ScienceQA preview 2](./assets/mm-cot/scienceqa-2.png) | [Website](https://scienceqa.github.io/) |
+| M3CoT (ACL 2024) | M3CoT | Text + Image | 7.86k | Long, 10-step multimodal reasoning traces curated for complex CoT supervision.<br>![M3CoT preview](./assets/mm-cot/m3cot.png) | [Paper](https://arxiv.org/abs/2405.16473) |
+| A-OKVQA | A-OKVQA | Text + Image | 25k | Visual QA tasks grounded in world knowledge with CoT-style rationales.<br>![A-OKVQA preview](./assets/mm-cot/a-okvqa.png) | [Dataset](https://huggingface.co/datasets/HuggingFaceM4/A-OKVQA) |
+| LLaVA-CoT-100k | LLaVA / X-KEV | Text + Image | 100k | CoT-distilled multimodal QA samples derived from LLaVA to supervise reasoning. | [Dataset](https://huggingface.co/datasets/Xkev/LLaVA-CoT-100k) |
+| VideoCoT | VideoCoT | Text + Video | — | Video-based CoT corpus with active annotation for temporal reasoning. | [Paper](https://arxiv.org/abs/2407.05355) |
+| VideoEspresso | VideoEspresso | Text + Video | — | Large-scale video QA dataset emphasizing fine-grained temporal CoT reasoning. | [Paper](https://arxiv.org/abs/2411.14794) |
+| MAVIS | MAVIS | Text + Image | — | Math-focused multimodal reasoning dataset aligning visual math with textual explanations. | — |
+| ICoT (ICLR 2025) | ICoT | Text + Image (Interleaved) | — | Interleaved visual-text chain-of-thought data for structured CoT supervision.<br>![ICoT preview](./assets/mm-cot/icot.png) | [Project](https://github.com/jungao1106/ICoT) |
+| Visual-CoT (NeurIPS 2024) | Visual-CoT | Text + Image | — | Unified benchmark combining image reasoning, text reasoning, and generated rationales.<br>![Visual CoT preview 1](./assets/mm-cot/visual-cot-1.png) ![Visual CoT preview 2](./assets/mm-cot/visual-cot-2.png) | [Dataset](https://huggingface.co/datasets/deepcs233/Visual-CoT) |
+| CoMT (AAAI 2025) | CoMT | Text + Image | 3.8k | Chain-of-multi-modal-thought benchmark for VQA with visual previews.<br>![CoMT preview 1](./assets/mm-cot/comt-1.png) ![CoMT preview 2](./assets/mm-cot/comt-2.png) | [Paper](https://dl.acm.org/doi/10.1609/aaai.v39i22.34538) · [Dataset](https://huggingface.co/datasets/czh-up/CoMT) |
+| EMMA-X | EMMA-X | Text + Image + Action | — | Robotics-oriented multimodal reasoning data derived from Bridge V2 for embodied CoT. | — |
 
 
 ### Evaluation Dataset
 
-| **Name & Link**                                     | **Intro**                                                                                      | **Previews** |
-| --------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------ |
-| [CoMT](https://huggingface.co/datasets/czh-up/CoMT) | 3,853 VQA samples with reasoning chains for common domain multimodal evaluation.               |              |
-| OmniBench                                           | 1,142 multimodal (T, I, A) tasks evaluating cross-modal reasoning and CoT explanation quality. |              |
-| WorldQA                                             | 1,007 video QA examples (T, V, A) testing open-ended reasoning grounded in world knowledge.    |              |
-| MiCEval                                             | 643 open-ended VQA samples evaluating CoT consistency in common domains.                       |              |
-| OlympiadBench                                       | 8,476 science QA tasks (Maths & Physics) emphasizing CoT and multi-modal explanation.          |              |
-| MME-CoT                                             | 1,130 multimodal (T, I) tasks across science, math, and commonsense domains.                   |              |
-| EMMA                                                | 2,788 multimodal QA tasks (T, I) for scientific reasoning with MC & open formats.              |              |
-| VisualProcessBench                                  | 2,866 math & science multimodal tasks focused on stepwise process reasoning.                   |              |
+| Dataset | Model | Modality | Quantity | Notes | Link |
+|---------|-------|----------|----------|-------|------|
+| CoMT Eval | CoMT | Text + Image | 3,853 | Common-domain multimodal evaluation split with reasoning traces. | [Dataset](https://huggingface.co/datasets/czh-up/CoMT) |
+| OmniBench | OmniBench | Text + Image + Audio | 1,142 | Evaluates cross-modal reasoning and CoT explanation quality. | — |
+| WorldQA | WorldQA | Text + Video + Audio | 1,007 | Video-centric QA testing world knowledge grounding. | — |
+| MiCEval | MiCEval | Text + Image | 643 | Open-ended VQA samples measuring CoT consistency. | — |
+| OlympiadBench | OlympiadBench | Text + Image | 8,476 | Science QA benchmark focusing on CoT-rich multimodal explanations. | — |
+| MME-CoT | MME-CoT | Text + Image | 1,130 | Multimodal CoT tasks across science, math, and commonsense. | — |
+| EMMA | EMMA | Text + Image | 2,788 | Scientific multimodal QA with mix of MC and open responses. | — |
+| VisualProcessBench | VisualProcessBench | Text + Image | 2,866 | Math and science process reasoning with stepwise evaluation criteria. | — |
 
 ### Methodologies of MM-CoT
 
@@ -248,18 +247,18 @@ Focuses on how chain-of-thoughts (CoTs) are constructed or taught to the model. 
 <details>
   <summary>Papers</summary>
 
-  - **IPVR** — Zhenfang Chen et al. “See, Think, Confirm: Interactive Prompting Between Vision and Language Models for Knowledge-Based Visual Reasoning.” arXiv:2301.05226, 2023.
-  - **VIC** — Haojie Zheng et al. “Thinking Before Looking: Improving Multimodal LLM Reasoning via Mitigating Visual Hallucination.” arXiv:2411.12591, 2024.
-  - **PKRD-CoT** — Xuewen Luo et al. “PKRD-CoT: A Unified Chain-of-Thought Prompting for Multi-Modal Large Language Models in Autonomous Driving.” arXiv:2412.02025, 2024.
-  - **VoT** — Hao Fei et al. “Video-of-Thought: Step-by-Step Video Reasoning from Perception to Cognition.” ICML 2024.
-  - **VideoAgent** — Xiaohan Wang et al. “VideoAgent: Long-form Video Understanding with Large Language Model as Agent.” ECCV 2024.
-  - **LPE** — Jingran Xie et al. “Leveraging Chain of Thought Towards Empathetic Spoken Dialogue Without Corresponding Question-Answering Data.” arXiv:2501.10937, 2025.
-  - **AntGPT** — Qi Zhao et al. “AntGPT: Can Large Language Models Help Long-term Action Anticipation from Videos?” arXiv:2307.16368, 2023.
-  - **Multimodal-CoT** — Yao Yao et al. “Multimodal Chain-of-Thought Reasoning in Language Models.” arXiv:2302.00923, 2023.
-  - **PCoT** — Lei Wang et al. “T-SciQ: Teaching Multimodal Chain-of-Thought Reasoning via Large Language Model Signals for Science Question Answering.” AAAI 2024.
-  - **MC-CoT** — Cheng Tan et al. “Boosting the Power of Small Multimodal Reasoning Models to Match Larger Models with Self-consistency Training.” ECCV 2024.
-  - **G-CoT** — Yao Yao, Zuchao Li, and Hai Zhao. “Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Language Models.” arXiv:2305.16582, 2023.
-  - **LoT** — Shanshan Zhong et al. “Let’s Think Outside the Box: Exploring Leap-of-Thought in Large Language Models with Creative Humor Generation.” CVPR 2024.
+  - **IPVR** — Zhenfang Chen et al., “[See, Think, Confirm: Interactive Prompting Between Vision and Language Models for Knowledge-Based Visual Reasoning](https://arxiv.org/abs/2301.05226)” (2023).
+  - **VIC** — Haojie Zheng et al., “[Thinking Before Looking: Improving Multimodal LLM Reasoning via Mitigating Visual Hallucination](https://arxiv.org/abs/2411.12591)” (2024).
+  - **PKRD-CoT** — Xuewen Luo et al., “[PKRD-CoT: A Unified Chain-of-Thought Prompting for Multi-Modal Large Language Models in Autonomous Driving](https://arxiv.org/abs/2412.02025)” (2024).
+  - **VoT** — Hao Fei et al., “Video-of-Thought: Step-by-Step Video Reasoning from Perception to Cognition” (ICML 2024).
+  - **VideoAgent** — Xiaohan Wang et al., “[VideoAgent: Long-form Video Understanding with Large Language Model as Agent](https://arxiv.org/abs/2403.10517)” (ECCV 2024).
+  - **LPE** — Jingran Xie et al., “[Leveraging Chain of Thought Towards Empathetic Spoken Dialogue Without Corresponding Question-Answering Data](https://arxiv.org/abs/2501.10937)” (2025).
+  - **AntGPT** — Qi Zhao et al., “[AntGPT: Can Large Language Models Help Long-term Action Anticipation from Videos?](https://arxiv.org/abs/2307.16368)” (2023).
+  - **Multimodal-CoT** — Yao Yao et al., “[Multimodal Chain-of-Thought Reasoning in Language Models](https://arxiv.org/abs/2302.00923)” (2023).
+  - **PCoT** — Lei Wang et al., “T-SciQ: Teaching Multimodal Chain-of-Thought Reasoning via Large Language Model Signals for Science Question Answering” (AAAI 2024).
+  - **MC-CoT** — Cheng Tan et al., “Boosting the Power of Small Multimodal Reasoning Models to Match Larger Models with Self-consistency Training” (ECCV 2024).
+  - **G-CoT** — Yao Yao, Zuchao Li, and Hai Zhao, “[Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Language Models](https://arxiv.org/abs/2305.16582)” (2023).
+  - **LoT** — Shanshan Zhong et al., “Let’s Think Outside the Box: Exploring Leap-of-Thought in Large Language Models with Creative Humor Generation” (CVPR 2024).
 </details>
 
 #### 2. Procedural Reasoning (Structured or Autonomous Staging)
@@ -268,17 +267,17 @@ Designs explicit multi-stage reasoning flows—either predefined (structured) or
 <details>
   <summary>Papers</summary>
 
-  - **BDoG** — Changmeng Zheng et al. “A Picture Is Worth a Graph: A Blueprint Debate Paradigm for Multimodal Reasoning.” ACM MM 2024.
-  - **Det-CoT** — Yixuan Wu et al. “DetToolchain: A New Prompting Paradigm to Unleash Detection Ability of MLLM.” ECCV 2024.
-  - **VisualSketchpad** — Yushi Hu et al. “Visual Sketchpad: Sketching as a Visual Chain of Thought for Multimodal Language Models.” arXiv:2406.09403, 2024.
-  - **CoTDet** — Jiajin Tang et al. “CoTDet: Affordance Knowledge Prompting for Task Driven Object Detection.” ICCV 2023.
-  - **CoCoT** — Daoan Zhang et al. “CoCoT: Contrastive Chain-of-Thought Prompting for Large Multimodal Models with Multiple Image Inputs.” arXiv:2401.02582, 2024.
-  - **SegPref** — Yaoting Wang et al. “Can Textual Semantics Mitigate Sounding Object Segmentation Preference?” ECCV 2024.
-  - **PS-CoT** — Qun Li et al. “PS-CoT-Adapter: Adapting Plan-and-Solve Chain-of-Thought for ScienceQA.” Science China Information Sciences 68(1):119101, 2025.
-  - **DDCoT** — Ge Zheng et al. “DDCoT: Duty-Distinct Chain-of-Thought Prompting for Multimodal Reasoning in Language Models.” NeurIPS 2023.
-  - **AVQA-CoT** — Guangyao Li et al. “AVQA-CoT: When CoT Meets Question Answering in Audio-Visual Scenarios.” CVPR Workshops 2024.
-  - **CoT-PT** — Jiaxin Ge et al. “Chain of Thought Prompt Tuning in Vision Language Models.” arXiv:2304.07919, 2023.
-  - **Image-of-Thought** — Qiji Zhou et al. “Image-of-Thought Prompting for Visual Reasoning Refinement in Multimodal Large Language Models.” arXiv:2405.13872, 2024.
+  - **BDoG** — Changmeng Zheng et al., “A Picture Is Worth a Graph: A Blueprint Debate Paradigm for Multimodal Reasoning” (ACM MM 2024).
+  - **Det-CoT** — Yixuan Wu et al., “DetToolchain: A New Prompting Paradigm to Unleash Detection Ability of MLLM” (ECCV 2024).
+  - **VisualSketchpad** — Yushi Hu et al., “[Visual Sketchpad: Sketching as a Visual Chain of Thought for Multimodal Language Models](https://arxiv.org/abs/2406.09403)” (2024).
+  - **CoTDet** — Jiajin Tang et al., “CoTDet: Affordance Knowledge Prompting for Task Driven Object Detection” (ICCV 2023).
+  - **CoCoT** — Daoan Zhang et al., “[CoCoT: Contrastive Chain-of-Thought Prompting for Large Multimodal Models with Multiple Image Inputs](https://arxiv.org/abs/2401.02582)” (2024).
+  - **SegPref** — Yaoting Wang et al., “Can Textual Semantics Mitigate Sounding Object Segmentation Preference?” (ECCV 2024).
+  - **PS-CoT** — Qun Li et al., “PS-CoT-Adapter: Adapting Plan-and-Solve Chain-of-Thought for ScienceQA” (Science China Information Sciences, 2025).
+  - **DDCoT** — Ge Zheng et al., “DDCoT: Duty-Distinct Chain-of-Thought Prompting for Multimodal Reasoning in Language Models” (NeurIPS 2023).
+  - **AVQA-CoT** — Guangyao Li et al., “AVQA-CoT: When CoT Meets Question Answering in Audio-Visual Scenarios” (CVPR Workshops 2024).
+  - **CoT-PT** — Jiaxin Ge et al., “[Chain of Thought Prompt Tuning in Vision Language Models](https://arxiv.org/abs/2304.07919)” (2023).
+  - **Image-of-Thought** — Qiji Zhou et al., “[Image-of-Thought Prompting for Visual Reasoning Refinement in Multimodal Large Language Models](https://arxiv.org/abs/2405.13872)” (2024).
 </details>
 
 #### 3. Information Enhancement (World / Context Retrieval & Tools)
@@ -287,17 +286,17 @@ Uses external knowledge or tool-chains to improve factuality or grounding during
 <details>
   <summary>Papers</summary>
 
-  - **Chain-of-Image** — Fanxu Meng et al. “Chain of Images for Intuitively Reasoning.” arXiv:2311.09241, 2023.
-  - **Det-CoT** — Yixuan Wu et al. “DetToolchain: A New Prompting Paradigm to Unleash Detection Ability of MLLM.” ECCV 2024.
-  - **L3GO** — Yutaro Yamada et al. “L3GO: Language Agents with Chain-of-3D-Thoughts for Generating Unconventional Objects.” arXiv:2402.09052, 2024.
-  - **RAGAR** — M. Abdul Khaliq et al. “RAGAR, Your Falsehood Radar: RAG-Augmented Reasoning for Political Fact-Checking Using Multimodal Large Language Models.” arXiv:2404.12065, 2024.
-  - **AR-MCTS** — Guanting Dong et al. “Progressive Multimodal Reasoning via Active Retrieval.” arXiv:2412.14835, 2024.
-  - **G-CoT** — Yao Yao, Zuchao Li, and Hai Zhao. “Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Language Models.” arXiv:2305.16582, 2023.
-  - **Chain-of-Action** — Zhenyu Pan et al. “Chain-of-Action: Faithful and Multimodal Question Answering Through Large Language Models.” arXiv:2403.17359, 2024.
-  - **KAM-CoT** — Debjyoti Mondal et al. “KAM-CoT: Knowledge Augmented Multimodal Chain-of-Thoughts Reasoning.” AAAI 2024.
-  - **MCoT-Memory** — Xiwen Liang et al. “Memory-driven Multimodal Chain of Thought for Embodied Long-horizon Task Planning.” OpenReview, 2025.
-  - **MGCoT** — Yao Yao, Zuchao Li, and Hai Zhao. “Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Language Models.” arXiv:2305.16582, 2023.
-  - **CCoT** — Chancharik Mitra et al. “Compositional Chain-of-Thought Prompting for Large Multimodal Models.” CVPR 2024.
+  - **Chain-of-Image** — Fanxu Meng et al., “[Chain of Images for Intuitively Reasoning](https://arxiv.org/abs/2311.09241)” (2023).
+  - **Det-CoT** — Yixuan Wu et al., “DetToolchain: A New Prompting Paradigm to Unleash Detection Ability of MLLM” (ECCV 2024).
+  - **L3GO** — Yutaro Yamada et al., “[L3GO: Language Agents with Chain-of-3D-Thoughts for Generating Unconventional Objects](https://arxiv.org/abs/2402.09052)” (2024).
+  - **RAGAR** — M. Abdul Khaliq et al., “[RAGAR, Your Falsehood Radar: RAG-Augmented Reasoning for Political Fact-Checking Using Multimodal Large Language Models](https://arxiv.org/abs/2404.12065)” (2024).
+  - **AR-MCTS** — Guanting Dong et al., “[Progressive Multimodal Reasoning via Active Retrieval](https://arxiv.org/abs/2412.14835)” (2024).
+  - **G-CoT** — Yao Yao, Zuchao Li, and Hai Zhao, “[Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Language Models](https://arxiv.org/abs/2305.16582)” (2023).
+  - **Chain-of-Action** — Zhenyu Pan et al., “[Chain-of-Action: Faithful and Multimodal Question Answering Through Large Language Models](https://arxiv.org/abs/2403.17359)” (2024).
+  - **KAM-CoT** — Debjyoti Mondal et al., “KAM-CoT: Knowledge Augmented Multimodal Chain-of-Thoughts Reasoning” (AAAI 2024).
+  - **MCoT-Memory** — Xiwen Liang et al., “Memory-driven Multimodal Chain of Thought for Embodied Long-horizon Task Planning” (OpenReview 2025).
+  - **MGCoT** — Yao Yao, Zuchao Li, and Hai Zhao, “[Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Language Models](https://arxiv.org/abs/2305.16582)” (2023).
+  - **CCoT** — Chancharik Mitra et al., “Compositional Chain-of-Thought Prompting for Large Multimodal Models” (CVPR 2024).
 </details>
 
 #### 4. Structural & Attention-Driven Reasoning
@@ -306,12 +305,12 @@ Focuses on representation structure, cross-modal attention, or modality-specific
 <details>
   <summary>Papers</summary>
 
-  - **Audio-CoT** — Ziyang Ma et al. “Audio-CoT: Exploring Chain-of-Thought Reasoning in Large Audio Language Model.” arXiv:2501.07246, 2025.
-  - **Grounding-Prompter** — Houlun Chen et al. “GroundingPrompter: Prompting LLM with Multimodal Information for Temporal Sentence Grounding in Long Videos.” arXiv:2312.17117, 2023.
-  - **TextCoT** — Bozhi Luan et al. “TextCoT: Zoom In for Enhanced Multimodal Text-Rich Image Understanding.” arXiv:2404.09797, 2024.
-  - **Cantor** — Timin Gao et al. “Cantor: Inspiring Multimodal Chain-of-Thought of MLLM.” ACM MM 2024.
-  - **VIC** — Haojie Zheng et al. “Thinking Before Looking: Improving Multimodal LLM Reasoning via Mitigating Visual Hallucination.” arXiv:2411.12591, 2024.
-  - **Meaformer** — EMNLP 2023 (hierarchical multimodal transformer with neighbor features and entity-type-aware self-attention).
+  - **Audio-CoT** — Ziyang Ma et al., “[Audio-CoT: Exploring Chain-of-Thought Reasoning in Large Audio Language Model](https://arxiv.org/abs/2501.07246)” (2025).
+  - **Grounding-Prompter** — Houlun Chen et al., “[GroundingPrompter: Prompting LLM with Multimodal Information for Temporal Sentence Grounding in Long Videos](https://arxiv.org/abs/2312.17117)” (2023).
+  - **TextCoT** — Bozhi Luan et al., “[TextCoT: Zoom In for Enhanced Multimodal Text-Rich Image Understanding](https://arxiv.org/abs/2404.09797)” (2024).
+  - **Cantor** — Timin Gao et al., “Cantor: Inspiring Multimodal Chain-of-Thought of MLLM” (ACM MM 2024).
+  - **VIC** — Haojie Zheng et al., “[Thinking Before Looking: Improving Multimodal LLM Reasoning via Mitigating Visual Hallucination](https://arxiv.org/abs/2411.12591)” (2024).
+  - **Meaformer** — EMNLP 2023 (introduces neighbor-aware hierarchical multimodal transformers for alignment).
 </details>
 
 #### 5. Training-Time Injection & Visual Conditioning
@@ -321,7 +320,7 @@ Modifies the learning or fine-tuning process itself to optimize where and how vi
   <summary>Papers</summary>
 
   - **TVC** — ACL 2025 (Visual conditioning via dynamic pruning; citation forthcoming).
-  - **Visual-o1** — Minheng Ni et al. “Visual-o1: Understanding Ambiguous Instructions via Multi-modal Multi-turn Chain-of-Thoughts Reasoning.” arXiv:2410.03321, 2024.
+  - **Visual-o1** — Minheng Ni et al., “[Visual-o1: Understanding Ambiguous Instructions via Multi-modal Multi-turn Chain-of-Thoughts Reasoning](https://arxiv.org/abs/2410.03321)” (2024).
 </details>
 
 #### 6. Optimization & Test-Time Scaling
@@ -330,9 +329,9 @@ Improves inference-time reasoning quality or credit assignment through scaling, 
 <details>
   <summary>Papers</summary>
 
-  - **Visual-o1** — Minheng Ni et al. “Visual-o1: Understanding Ambiguous Instructions via Multi-modal Multi-turn Chain-of-Thoughts Reasoning.” arXiv:2410.03321, 2024.
-  - **LlamaV-o1** — Omkar Thawakar et al. “LlamaV-o1: Rethinking Step-by-Step Visual Reasoning in LLMs.” arXiv:2501.06186, 2025.
-  - **Virgo** — Yifan Du et al. “Virgo: A Preliminary Exploration on Reproducing o1-like MLLM.” arXiv:2501.01904, 2025.
-  - **Deepseek-R1** — Daya Guo et al. “Deepseek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.” arXiv:2501.12948, 2025.
-  - **LLaVA-Reasoner** — Ruohong Zhang et al. “Improve Vision Language Model Chain-of-Thought Reasoning.” arXiv:2410.16198, 2024.
+  - **Visual-o1** — Minheng Ni et al., “[Visual-o1: Understanding Ambiguous Instructions via Multi-modal Multi-turn Chain-of-Thoughts Reasoning](https://arxiv.org/abs/2410.03321)” (2024).
+  - **LlamaV-o1** — Omkar Thawakar et al., “[LlamaV-o1: Rethinking Step-by-Step Visual Reasoning in LLMs](https://arxiv.org/abs/2501.06186)” (2025).
+  - **Virgo** — Yifan Du et al., “[Virgo: A Preliminary Exploration on Reproducing o1-like MLLM](https://arxiv.org/abs/2501.01904)” (2025).
+  - **Deepseek-R1** — Daya Guo et al., “[Deepseek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948)” (2025).
+  - **LLaVA-Reasoner** — Ruohong Zhang et al., “[Improve Vision Language Model Chain-of-Thought Reasoning](https://arxiv.org/abs/2410.16198)” (2024).
 </details>
