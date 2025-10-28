@@ -432,26 +432,129 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 Captures methods that adapt model parameters, inject new supervision, or modify architectures to strengthen multimodal chain-of-thought abilities.
 
 <details>
-  <summary>Papers</summary>
+  <summary>**AVQA-CoT** — Guangyao Li et al., “AVQA-CoT: When CoT Meets Question Answering in Audio-Visual Scenarios” (CVPR Workshops 2024).</summary>
 
-  - **AVQA-CoT** — Guangyao Li et al., “AVQA-CoT: When CoT Meets Question Answering in Audio-Visual Scenarios” (CVPR Workshops 2024).
-  - **Audio-CoT** — Ziyang Ma et al., “[Audio-CoT: Exploring Chain-of-Thought Reasoning in Large Audio Language Model](https://arxiv.org/abs/2501.07246)” (2025).
-  - **Cantor** — Timin Gao et al., “Cantor: Inspiring Multimodal Chain-of-Thought of MLLM” (ACM MM 2024).
-  - **CoT-PT** — Jiaxin Ge et al., “[Chain of Thought Prompt Tuning in Vision Language Models](https://arxiv.org/abs/2304.07919)” (2023).
-  - **G-CoT** — Yao Yao, Zuchao Li, and Hai Zhao, “[Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Language Models](https://arxiv.org/abs/2305.16582)” (2023).
-  - **Grounding-Prompter** — Houlun Chen et al., “[GroundingPrompter: Prompting LLM with Multimodal Information for Temporal Sentence Grounding in Long Videos](https://arxiv.org/abs/2312.17117)” (2023).
-  - **LoT** — Shanshan Zhong et al., “Let’s Think Outside the Box: Exploring Leap-of-Thought in Large Language Models with Creative Humor Generation” (CVPR 2024).
-  - **LlamaV-o1** — Omkar Thawakar et al., “[LlamaV-o1: Rethinking Step-by-Step Visual Reasoning in LLMs](https://arxiv.org/abs/2501.06186)” (2025).
-  - **MC-CoT** — Cheng Tan et al., “Boosting the Power of Small Multimodal Reasoning Models to Match Larger Models with Self-consistency Training” (ECCV 2024).
-  - **MCoT-Memory** — Xiwen Liang et al., “Memory-driven Multimodal Chain of Thought for Embodied Long-horizon Task Planning” (OpenReview 2025).
-  - **Meaformer** — EMNLP 2023 (introduces neighbor-aware hierarchical multimodal transformers for alignment).
-  - **MGCoT** — Yao Yao, Zuchao Li, and Hai Zhao, “[Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Language Models](https://arxiv.org/abs/2305.16582)” (2023).
-  - **Multimodal-CoT** — Yao Yao et al., “[Multimodal Chain-of-Thought Reasoning in Language Models](https://arxiv.org/abs/2302.00923)” (2023).
-  - **PCoT** — Lei Wang et al., “T-SciQ: Teaching Multimodal Chain-of-Thought Reasoning via Large Language Model Signals for Science Question Answering” (AAAI 2024).
-  - **PS-CoT** — Qun Li et al., “PS-CoT-Adapter: Adapting Plan-and-Solve Chain-of-Thought for ScienceQA” (Science China Information Sciences, 2025).
-  - **TVC** — ACL 2025 (Visual conditioning via dynamic pruning; citation forthcoming).
-  - **Visual-o1** — Minheng Ni et al., “[Visual-o1: Understanding Ambiguous Instructions via Multi-modal Multi-turn Chain-of-Thoughts Reasoning](https://arxiv.org/abs/2410.03321)” (2024).
-  - **Virgo** — Yifan Du et al., “[Virgo: A Preliminary Exploration on Reproducing o1-like MLLM](https://arxiv.org/abs/2501.01904)” (2025).
+  AVQA-CoT: When CoT Meets Question Answering in Audio-Visual Scenarios (CVPR Workshops 2024).
+
+</details>
+
+<details>
+  <summary>**Audio-CoT** — Ziyang Ma et al., “[Audio-CoT: Exploring Chain-of-Thought Reasoning in Large Audio Language Model](https://arxiv.org/abs/2501.07246)” (2025).</summary>
+
+  [paper](https://arxiv.org/abs/2501.07246)
+
+</details>
+
+<details>
+  <summary>**Cantor** — Timin Gao et al., “Cantor: Inspiring Multimodal Chain-of-Thought of MLLM” (ACM MM 2024).</summary>
+
+  Cantor: Inspiring Multimodal Chain-of-Thought of MLLM (ACM MM 2024).
+
+</details>
+
+<details>
+  <summary>**CoT-PT** — Jiaxin Ge et al., “[Chain of Thought Prompt Tuning in Vision Language Models](https://arxiv.org/abs/2304.07919)” (2023).</summary>
+
+  [paper](https://arxiv.org/abs/2304.07919)
+
+</details>
+
+<details>
+  <summary>**G-CoT** — Yao Yao, Zuchao Li, and Hai Zhao, “[Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Language Models](https://arxiv.org/abs/2305.16582)” (2023).</summary>
+
+  [paper](https://arxiv.org/abs/2305.16582)
+
+</details>
+
+<details>
+  <summary>**Grounding-Prompter** — Houlun Chen et al., “[GroundingPrompter: Prompting LLM with Multimodal Information for Temporal Sentence Grounding in Long Videos](https://arxiv.org/abs/2312.17117)” (2023).</summary>
+
+  [paper](https://arxiv.org/abs/2312.17117)
+
+</details>
+
+<details>
+  <summary>**LoT** — Shanshan Zhong et al., “Let’s Think Outside the Box: Exploring Leap-of-Thought in Large Language Models with Creative Humor Generation” (CVPR 2024).</summary>
+
+  Let’s Think Outside the Box: Exploring Leap-of-Thought in Large Language Models with Creative Humor Generation (CVPR 2024).
+
+</details>
+
+<details>
+  <summary>**LlamaV-o1** — Omkar Thawakar et al., “[LlamaV-o1: Rethinking Step-by-Step Visual Reasoning in LLMs](https://arxiv.org/abs/2501.06186)” (2025).</summary>
+
+  [paper](https://arxiv.org/abs/2501.06186)
+
+</details>
+
+<details>
+  <summary>**MC-CoT** — Cheng Tan et al., “Boosting the Power of Small Multimodal Reasoning Models to Match Larger Models with Self-consistency Training” (ECCV 2024).</summary>
+
+  Boosting the Power of Small Multimodal Reasoning Models to Match Larger Models with Self-consistency Training (ECCV 2024).
+
+</details>
+
+<details>
+  <summary>**MCoT-Memory** — Xiwen Liang et al., “Memory-driven Multimodal Chain of Thought for Embodied Long-horizon Task Planning” (OpenReview 2025).</summary>
+
+  Memory-driven Multimodal Chain of Thought for Embodied Long-horizon Task Planning (OpenReview 2025).
+
+</details>
+
+<details>
+  <summary>**Meaformer** — EMNLP 2023 (introduces neighbor-aware hierarchical multimodal transformers for alignment).</summary>
+
+  EMNLP 2023 (introduces neighbor-aware hierarchical multimodal transformers for alignment).
+
+</details>
+
+<details>
+  <summary>**MGCoT** — Yao Yao, Zuchao Li, and Hai Zhao, “[Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Language Models](https://arxiv.org/abs/2305.16582)” (2023).</summary>
+
+  [paper](https://arxiv.org/abs/2305.16582)
+
+</details>
+
+<details>
+  <summary>**Multimodal-CoT** — Yao Yao et al., “[Multimodal Chain-of-Thought Reasoning in Language Models](https://arxiv.org/abs/2302.00923)” (2023).</summary>
+
+  [paper](https://arxiv.org/abs/2302.00923)
+
+</details>
+
+<details>
+  <summary>**PCoT** — Lei Wang et al., “T-SciQ: Teaching Multimodal Chain-of-Thought Reasoning via Large Language Model Signals for Science Question Answering” (AAAI 2024).</summary>
+
+  T-SciQ: Teaching Multimodal Chain-of-Thought Reasoning via Large Language Model Signals for Science Question Answering (AAAI 2024).
+
+</details>
+
+<details>
+  <summary>**PS-CoT** — Qun Li et al., “PS-CoT-Adapter: Adapting Plan-and-Solve Chain-of-Thought for ScienceQA” (Science China Information Sciences, 2025).</summary>
+
+  PS-CoT-Adapter: Adapting Plan-and-Solve Chain-of-Thought for ScienceQA (Science China Information Sciences, 2025).
+
+</details>
+
+<details>
+  <summary>**TVC** — ACL 2025 (Visual conditioning via dynamic pruning; citation forthcoming).</summary>
+
+  ACL 2025 (Visual conditioning via dynamic pruning; citation forthcoming).
+
+</details>
+
+<details>
+  <summary>**Visual-o1** — Minheng Ni et al., “[Visual-o1: Understanding Ambiguous Instructions via Multi-modal Multi-turn Chain-of-Thoughts Reasoning](https://arxiv.org/abs/2410.03321)” (2024).</summary>
+
+  [paper](https://arxiv.org/abs/2410.03321)
+
+</details>
+
+<details>
+  <summary>**Virgo** — Yifan Du et al., “[Virgo: A Preliminary Exploration on Reproducing o1-like MLLM](https://arxiv.org/abs/2501.01904)” (2025).</summary>
+
+  [paper](https://arxiv.org/abs/2501.01904)
+
 </details>
 
 ### Reinforcement Learning
@@ -459,8 +562,15 @@ Captures methods that adapt model parameters, inject new supervision, or modify 
 Focuses on reinforcement learning or policy optimization steps that explicitly reward improved multimodal reasoning behavior.
 
 <details>
-  <summary>Papers</summary>
+  <summary>**Deepseek-R1** — Daya Guo et al., “[Deepseek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948)” (2025).</summary>
 
-  - **Deepseek-R1** — Daya Guo et al., “[Deepseek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948)” (2025).
-  - **LLaVA-Reasoner** — Ruohong Zhang et al., “[Improve Vision Language Model Chain-of-Thought Reasoning](https://arxiv.org/abs/2410.16198)” (2024).
+  [paper](https://arxiv.org/abs/2501.12948)
+
+</details>
+
+<details>
+  <summary>**LLaVA-Reasoner** — Ruohong Zhang et al., “[Improve Vision Language Model Chain-of-Thought Reasoning](https://arxiv.org/abs/2410.16198)” (2024).</summary>
+
+  [paper](https://arxiv.org/abs/2410.16198)
+
 </details>
