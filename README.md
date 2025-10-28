@@ -249,14 +249,14 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>**AntGPT** — Qi Zhao et al., “[AntGPT: Can Large Language Models Help Long-term Action Anticipation from Videos?](https://arxiv.org/abs/2307.16368)” (2023).</summary>
 
-  [paper](https://arxiv.org/abs/2307.16368) — AntGPT: Can Large Language Models Help Long-term Action Anticipation from Videos?
+  [paper](https://arxiv.org/abs/2307.16368)
 
 </details>
 
 <details>
   <summary>**AR-MCTS** — Guanting Dong et al., “[Progressive Multimodal Reasoning via Active Retrieval](https://arxiv.org/abs/2412.14835)” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2412.14835) — Progressive Multimodal Reasoning via Active Retrieval.
+  [paper](https://arxiv.org/abs/2412.14835)
 
 </details>
 
@@ -270,14 +270,14 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>**Chain-of-Action** — Zhenyu Pan et al., “[Chain-of-Action: Faithful and Multimodal Question Answering Through Large Language Models](https://arxiv.org/abs/2403.17359)” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2403.17359) — Chain-of-Action: Faithful and Multimodal Question Answering Through Large Language Models.
+  [paper](https://arxiv.org/abs/2403.17359)
 
 </details>
 
 <details>
   <summary>**Chain-of-Image** — Fanxu Meng et al., “[Chain of Images for Intuitively Reasoning](https://arxiv.org/abs/2311.09241)” (2023).</summary>
 
-  [paper](https://arxiv.org/abs/2311.09241) — Chain of Images for Intuitively Reasoning.
+  [paper](https://arxiv.org/abs/2311.09241)
 
 </details>
 
@@ -291,7 +291,7 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>**CoCoT** — Daoan Zhang et al., “[CoCoT: Contrastive Chain-of-Thought Prompting for Large Multimodal Models with Multiple Image Inputs](https://arxiv.org/abs/2401.02582)” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2401.02582) — CoCoT: Contrastive Chain-of-Thought Prompting for Large Multimodal Models with Multiple Image Inputs.
+  [paper](https://arxiv.org/abs/2401.02582)
 
 </details>
 
@@ -319,7 +319,7 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>**Image-of-Thought** — Qiji Zhou et al., “[Image-of-Thought Prompting for Visual Reasoning Refinement in Multimodal Large Language Models](https://arxiv.org/abs/2405.13872)” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2405.13872) — Image-of-Thought Prompting for Visual Reasoning Refinement in Multimodal Large Language Models.
+  [paper](https://arxiv.org/abs/2405.13872)
 
 </details>
 
@@ -333,7 +333,7 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>**IPVR** — Zhenfang Chen et al., “[See, Think, Confirm: Interactive Prompting Between Vision and Language Models for Knowledge-Based Visual Reasoning](https://arxiv.org/abs/2301.05226)” (2023).</summary>
 
-  [paper](https://arxiv.org/abs/2301.05226) — See, Think, Confirm: Interactive Prompting Between Vision and Language Models for Knowledge-Based Visual Reasoning.
+  [paper](https://arxiv.org/abs/2301.05226)
 
 </details>
 
@@ -354,28 +354,28 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>**L3GO** — Yutaro Yamada et al., “[L3GO: Language Agents with Chain-of-3D-Thoughts for Generating Unconventional Objects](https://arxiv.org/abs/2402.09052)” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2402.09052) — L3GO: Language Agents with Chain-of-3D-Thoughts for Generating Unconventional Objects.
+  [paper](https://arxiv.org/abs/2402.09052)
 
 </details>
 
 <details>
   <summary>**LPE** — Jingran Xie et al., “[Leveraging Chain of Thought Towards Empathetic Spoken Dialogue Without Corresponding Question-Answering Data](https://arxiv.org/abs/2501.10937)” (2025).</summary>
 
-  [paper](https://arxiv.org/abs/2501.10937) — Leveraging Chain of Thought Towards Empathetic Spoken Dialogue Without Corresponding Question-Answering Data.
+  [paper](https://arxiv.org/abs/2501.10937)
 
 </details>
 
 <details>
   <summary>**PKRD-CoT** — Xuewen Luo et al., “[PKRD-CoT: A Unified Chain-of-Thought Prompting for Multi-Modal Large Language Models in Autonomous Driving](https://arxiv.org/abs/2412.02025)” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2412.02025) — PKRD-CoT: A Unified Chain-of-Thought Prompting for Multi-Modal Large Language Models in Autonomous Driving.
+  [paper](https://arxiv.org/abs/2412.02025)
 
 </details>
 
 <details>
   <summary>**RAGAR** — M. Abdul Khaliq et al., “[RAGAR, Your Falsehood Radar: RAG-Augmented Reasoning for Political Fact-Checking Using Multimodal Large Language Models](https://arxiv.org/abs/2404.12065)” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2404.12065) — RAGAR, Your Falsehood Radar: RAG-Augmented Reasoning for Political Fact-Checking Using Multimodal Large Language Models.
+  [paper](https://arxiv.org/abs/2404.12065)
 
 </details>
 
@@ -389,21 +389,21 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>**TextCoT** — Bozhi Luan et al., “[TextCoT: Zoom In for Enhanced Multimodal Text-Rich Image Understanding](https://arxiv.org/abs/2404.09797)” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2404.09797) — TextCoT: Zoom In for Enhanced Multimodal Text-Rich Image Understanding.
+  [paper](https://arxiv.org/abs/2404.09797)
 
 </details>
 
 <details>
   <summary>**VideoAgent** — Xiaohan Wang et al., “[VideoAgent: Long-form Video Understanding with Large Language Model as Agent](https://arxiv.org/abs/2403.10517)” (ECCV 2024).</summary>
 
-  [paper](https://arxiv.org/abs/2403.10517) — VideoAgent: Long-form Video Understanding with Large Language Model as Agent.
+  [paper](https://arxiv.org/abs/2403.10517)
 
 </details>
 
 <details>
   <summary>**VisualSketchpad** — Yushi Hu et al., “[Visual Sketchpad: Sketching as a Visual Chain of Thought for Multimodal Language Models](https://arxiv.org/abs/2406.09403)” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2406.09403) — Visual Sketchpad: Sketching as a Visual Chain of Thought for Multimodal Language Models.
+  [paper](https://arxiv.org/abs/2406.09403)
 
 </details>
 
@@ -424,7 +424,7 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>**VIC** — Haojie Zheng et al., “[Thinking Before Looking: Improving Multimodal LLM Reasoning via Mitigating Visual Hallucination](https://arxiv.org/abs/2411.12591)” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2411.12591) — Thinking Before Looking: Improving Multimodal LLM Reasoning via Mitigating Visual Hallucination.
+  [paper](https://arxiv.org/abs/2411.12591)
 
 </details>
 
