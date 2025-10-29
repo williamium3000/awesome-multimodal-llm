@@ -16,6 +16,10 @@
   - [🔥 Reasoning](#-reasoning)
     - [MM-CoT](#mm-cot)
     - [Reinforcement Learning](#reinforcement-learning)
+  - [🔥 Tasks, Benchmark and Datasets](#tasks-benchmark-and-datasets)
+    - [OCR](#ocr)
+    - [Analogy](#analogy)
+    - [VCR] (#vcr)
 
 
 ## 🔥 Supervised Finetuning
@@ -620,3 +624,14 @@ Focuses on reinforcement learning or policy optimization steps that explicitly r
   [paper](https://arxiv.org/abs/2410.16198) | [Github](https://github.com/RifleZhang/LLaVA-Reasoner-DPO)
 
 </details>
+
+## Tasks, Benchark and Dataset
+
+
+
+### OCR
+
+### Analogy
+
+### VCR
+
