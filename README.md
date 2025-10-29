@@ -19,7 +19,7 @@
   - [🔥 Tasks, Benchmark and Datasets](#tasks-benchmark-and-datasets)
     - [OCR](#ocr)
     - [Analogy](#analogy)
-    - [VCR] (#vcr)
+    - [VCR](#vcr)
 
 
 ## 🔥 Supervised Finetuning
