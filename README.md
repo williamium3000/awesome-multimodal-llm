@@ -40,7 +40,7 @@
 
   <summary>CogVLM: Visual Expert for Pretrained Language Models, 2023 -> CogVLM-SFT-311K</summary>
 
-  [paper](https://arxiv.org/abs/2311.03079) | [Github](https://github.com/THUDM/CogVLM) | —
+  [paper](https://arxiv.org/abs/2311.03079) | [Github](https://github.com/THUDM/CogVLM)
 
 </details>
 
@@ -72,7 +72,7 @@
 
   <summary>Infinity-MM: Scaling Multimodal Performance with Large-Scale and High-Quality Instruction Data, 2024 -> Infinity-MM</summary>
 
-  [paper](https://arxiv.org/abs/2410.18558) | — | [website](https://hub.baai.ac.cn/view/40667)
+  [paper](https://arxiv.org/abs/2410.18558) | [website](https://hub.baai.ac.cn/view/40667)
 
 </details>
 
@@ -96,7 +96,7 @@
   
   <summary>Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs, 2024 -> Cambrian-10M</summary>
 
-  [paper](https://arxiv.org/abs/2406.16860) | [Github](https://github.com/cambrian-mllm/cambrian) | [website](https://cambrian-mllm.github.io/) 
+  [paper](https://arxiv.org/abs/2406.16860) | [Github](https://github.com/cambrian-mllm/cambrian) | [website](https://cambrian-mllm.github.io/)
 
 </details>
 
@@ -264,14 +264,14 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>AR-MCTS — Guanting Dong et al., “Progressive Multimodal Reasoning via Active Retrieval” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2412.14835) | — | —
+  [paper](https://arxiv.org/abs/2412.14835)
 
 </details>
 
 <details>
   <summary>BDoG — Changmeng Zheng et al., “A Picture Is Worth a Graph: A Blueprint Debate Paradigm for Multimodal Reasoning” (ACM MM 2024).</summary>
 
-  [paper](https://arxiv.org/abs/2403.14972) | [Github](https://github.com/thecharm/BDoG) | —
+  [paper](https://arxiv.org/abs/2403.14972) | [Github](https://github.com/thecharm/BDoG)
 
   A Picture Is Worth a Graph: A Blueprint Debate Paradigm for Multimodal Reasoning.
 
@@ -287,14 +287,14 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>Chain-of-Image — Fanxu Meng et al., “Chain of Images for Intuitively Reasoning” (2023).</summary>
 
-  [paper](https://arxiv.org/abs/2311.09241) | [Github](https://github.com/GraphPKU/CoI) | —
+  [paper](https://arxiv.org/abs/2311.09241) | [Github](https://github.com/GraphPKU/CoI)
 
 </details>
 
 <details>
   <summary>CCoT — Chancharik Mitra et al., “Compositional Chain-of-Thought Prompting for Large Multimodal Models” (CVPR 2023).</summary>
 
-  [paper](https://arxiv.org/abs/2311.17076) | [Github](https://github.com/chancharikmitra/CCoT) | —
+  [paper](https://arxiv.org/abs/2311.17076) | [Github](https://github.com/chancharikmitra/CCoT)
 
   Compositional Chain-of-Thought Prompting for Large Multimodal Models.
 
@@ -303,7 +303,7 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>CoCoT — Daoan Zhang et al., “CoCoT: Contrastive Chain-of-Thought Prompting for Large Multimodal Models with Multiple Image Inputs” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2401.02582) | [Github](https://github.com/DAMO-NLP-SG/contrastive-cot) | —
+  [paper](https://arxiv.org/abs/2401.02582) | [Github](https://github.com/DAMO-NLP-SG/contrastive-cot)
 
 </details>
 
@@ -328,7 +328,7 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>Det-CoT — Yixuan Wu et al., “DetToolchain: A New Prompting Paradigm to Unleash Detection Ability of MLLM” (ECCV 2024).</summary>
 
-  [paper](https://arxiv.org/abs/2403.12488) | [Github](https://github.com/yixuan730/DetToolChain) | —
+  [paper](https://arxiv.org/abs/2403.12488) | [Github](https://github.com/yixuan730/DetToolChain)
 
   DetToolchain: A New Prompting Paradigm to Unleash Detection Ability of MLLM.
 
@@ -337,7 +337,7 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>Image-of-Thought — Qiji Zhou et al., “Image-of-Thought Prompting for Visual Reasoning Refinement in Multimodal Large Language Models” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2405.13872) | — | —
+  [paper](https://arxiv.org/abs/2405.13872)
 
 </details>
 
@@ -353,14 +353,14 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>IPVR — Zhenfang Chen et al., “See, Think, Confirm: Interactive Prompting Between Vision and Language Models for Knowledge-Based Visual Reasoning” (2023).</summary>
 
-  [paper](https://arxiv.org/abs/2301.05226) | — | [website](https://zhenfang-chen.com/IPVR/)
+  [paper](https://arxiv.org/abs/2301.05226) | [website](https://zhenfang-chen.com/IPVR/)
 
 </details>
 
 <details>
   <summary>KAM-CoT — Debjyoti Mondal et al., “KAM-CoT: Knowledge Augmented Multimodal Chain-of-Thoughts Reasoning” (AAAI 2024).</summary>
 
-  [paper](https://arxiv.org/abs/2401.12863) | — | [website](https://mm-llms.github.io/posts/KAM-CoT/)
+  [paper](https://arxiv.org/abs/2401.12863) | [website](https://mm-llms.github.io/posts/KAM-CoT/)
 
   KAM-CoT: Knowledge Augmented Multimodal Chain-of-Thoughts Reasoning.
 
@@ -385,28 +385,28 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>LPE — Jingran Xie et al., “Leveraging Chain of Thought Towards Empathetic Spoken Dialogue Without Corresponding Question-Answering Data” (2025).</summary>
 
-  [paper](https://arxiv.org/abs/2501.10937) | — | —
+  [paper](https://arxiv.org/abs/2501.10937)
 
 </details>
 
 <details>
   <summary>PKRD-CoT — Xuewen Luo et al., “PKRD-CoT: A Unified Chain-of-Thought Prompting for Multi-Modal Large Language Models in Autonomous Driving” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2412.02025) | — | —
+  [paper](https://arxiv.org/abs/2412.02025)
 
 </details>
 
 <details>
   <summary>RAGAR — M. Abdul Khaliq et al., “RAGAR, Your Falsehood Radar: RAG-Augmented Reasoning for Political Fact-Checking Using Multimodal Large Language Models” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2404.12065) | [Github](https://github.com/ICTMCG/LLM-for-misinformation-research) | —
+  [paper](https://arxiv.org/abs/2404.12065) | [Github](https://github.com/ICTMCG/LLM-for-misinformation-research)
 
 </details>
 
 <details>
   <summary>SegPref — Yaoting Wang et al., “Can Textual Semantics Mitigate Sounding Object Segmentation Preference?” (ECCV 2024).</summary>
 
-  [paper](https://arxiv.org/abs/2407.10947) | [Github](https://github.com/GeWu-Lab/Sounding-Object-Segmentation-Preference) | —
+  [paper](https://arxiv.org/abs/2407.10947) | [Github](https://github.com/GeWu-Lab/Sounding-Object-Segmentation-Preference)
 
   Can Textual Semantics Mitigate Sounding Object Segmentation Preference?
 
@@ -415,14 +415,14 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>TextCoT — Bozhi Luan et al., “TextCoT: Zoom In for Enhanced Multimodal Text-Rich Image Understanding” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2404.09797) | [Github](https://github.com/bzluan/TextCoT) | —
+  [paper](https://arxiv.org/abs/2404.09797) | [Github](https://github.com/bzluan/TextCoT)
 
 </details>
 
 <details>
   <summary>VideoAgent — Xiaohan Wang et al., “VideoAgent: Long-form Video Understanding with Large Language Model as Agent” (ECCV 2024).</summary>
 
-  [paper](https://arxiv.org/abs/2403.10517) | — | [website](https://videoagent.github.io/)
+  [paper](https://arxiv.org/abs/2403.10517) | [website](https://videoagent.github.io/)
 
 </details>
 
@@ -445,7 +445,7 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>VoT — Hao Fei et al., “Video-of-Thought: Step-by-Step Video Reasoning from Perception to Cognition” (ICML 2024).</summary>
 
-  [paper](https://arxiv.org/abs/2501.03230) | — | —
+  [paper](https://arxiv.org/abs/2501.03230)
 
   Video-of-Thought: Step-by-Step Video Reasoning from Perception to Cognition.
 
@@ -454,7 +454,7 @@ Focuses on staged prompting, retrieval-augmented reasoning, and agentic workflow
 <details>
   <summary>VIC — Haojie Zheng et al., “Thinking Before Looking: Improving Multimodal LLM Reasoning via Mitigating Visual Hallucination” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2411.12591) | [Github](https://github.com/Terry-Xu-666/visual_inference_chain) | —
+  [paper](https://arxiv.org/abs/2411.12591) | [Github](https://github.com/Terry-Xu-666/visual_inference_chain)
 
 </details>
 
@@ -464,7 +464,7 @@ Captures methods that adapt model parameters, inject new supervision, or modify 
 <details>
   <summary>AVQA-CoT — Guangyao Li et al., “AVQA-CoT: When CoT Meets Question Answering in Audio-Visual Scenarios” (CVPR Workshops 2024).</summary>
 
-  [paper](https://sightsound.org/papers/2024/Li_AVQA-CoT_When_CoT_Meets_Question_Answering_in_Audio-Visual_Scenarios.pdf) | — | —
+  [paper](https://sightsound.org/papers/2024/Li_AVQA-CoT_When_CoT_Meets_Question_Answering_in_Audio-Visual_Scenarios.pdf)
 
   AVQA-CoT: When CoT Meets Question Answering in Audio-Visual Scenarios (CVPR Workshops 2024).
 
@@ -473,7 +473,7 @@ Captures methods that adapt model parameters, inject new supervision, or modify 
 <details>
   <summary>Audio-CoT — Ziyang Ma et al., “Audio-CoT: Exploring Chain-of-Thought Reasoning in Large Audio Language Model” (2025).</summary>
 
-  [paper](https://arxiv.org/abs/2501.07246) | — | —
+  [paper](https://arxiv.org/abs/2501.07246)
 
 </details>
 
@@ -489,28 +489,28 @@ Captures methods that adapt model parameters, inject new supervision, or modify 
 <details>
   <summary>CoT-PT — Jiaxin Ge et al., “Chain of Thought Prompt Tuning in Vision Language Models” (2023).</summary>
 
-  [paper](https://arxiv.org/abs/2304.07919) | — | —
+  [paper](https://arxiv.org/abs/2304.07919)
 
 </details>
 
 <details>
   <summary>G-CoT — Yao Yao, Zuchao Li, and Hai Zhao, “Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Language Models” (2023).</summary>
 
-  [paper](https://arxiv.org/abs/2305.16582) | [Github](https://github.com/amazon-science/mm-cot) | —
+  [paper](https://arxiv.org/abs/2305.16582) | [Github](https://github.com/amazon-science/mm-cot)
 
 </details>
 
 <details>
   <summary>Grounding-Prompter — Houlun Chen et al., “GroundingPrompter: Prompting LLM with Multimodal Information for Temporal Sentence Grounding in Long Videos” (2023).</summary>
 
-  [paper](https://arxiv.org/abs/2312.17117) | — | —
+  [paper](https://arxiv.org/abs/2312.17117)
 
 </details>
 
 <details>
   <summary>LoT — Shanshan Zhong et al., “Let’s Think Outside the Box: Exploring Leap-of-Thought in Large Language Models with Creative Humor Generation” (CVPR 2024).</summary>
 
-  [paper](https://arxiv.org/abs/2312.02439) | — | —
+  [paper](https://arxiv.org/abs/2312.02439)
 
   Let’s Think Outside the Box: Exploring Leap-of-Thought in Large Language Models with Creative Humor Generation (CVPR 2024).
 
@@ -519,14 +519,14 @@ Captures methods that adapt model parameters, inject new supervision, or modify 
 <details>
   <summary>LlamaV-o1 — Omkar Thawakar et al., “LlamaV-o1: Rethinking Step-by-Step Visual Reasoning in LLMs” (2025).</summary>
 
-  [paper](https://arxiv.org/abs/2501.06186) | [Github](https://github.com/mbzuai-oryx/LlamaV-o1) | —
+  [paper](https://arxiv.org/abs/2501.06186) | [Github](https://github.com/mbzuai-oryx/LlamaV-o1)
 
 </details>
 
 <details>
   <summary>MC-CoT — Cheng Tan et al., “Boosting the Power of Small Multimodal Reasoning Models to Match Larger Models with Self-consistency Training” (ECCV 2024).</summary>
 
-  [paper](https://arxiv.org/abs/2311.14109) | [Github](https://github.com/chengtan9907/mc-cot) | —
+  [paper](https://arxiv.org/abs/2311.14109) | [Github](https://github.com/chengtan9907/mc-cot)
 
   Boosting the Power of Small Multimodal Reasoning Models to Match Larger Models with Self-consistency Training (ECCV 2024).
 
@@ -535,7 +535,7 @@ Captures methods that adapt model parameters, inject new supervision, or modify 
 <details>
   <summary>MCoT-Memory — Xiwen Liang et al., “Memory-driven Multimodal Chain of Thought for Embodied Long-horizon Task Planning” (OpenReview 2025).</summary>
 
-  [paper](https://arxiv.org/abs/2412.11974) | — | —
+  [paper](https://arxiv.org/abs/2412.11974)
 
   Memory-driven Multimodal Chain of Thought for Embodied Long-horizon Task Planning (OpenReview 2025).
 
@@ -544,7 +544,7 @@ Captures methods that adapt model parameters, inject new supervision, or modify 
 <details>
   <summary>Meaformer — EMNLP 2023 (introduces neighbor-aware hierarchical multimodal transformers for alignment).</summary>
 
-  [paper](https://arxiv.org/abs/2212.14454) | [Github](https://github.com/zjukg/MEAformer) | —
+  [paper](https://arxiv.org/abs/2212.14454) | [Github](https://github.com/zjukg/MEAformer)
 
   EMNLP 2023 (introduces neighbor-aware hierarchical multimodal transformers for alignment).
 
@@ -553,21 +553,21 @@ Captures methods that adapt model parameters, inject new supervision, or modify 
 <details>
   <summary>MGCoT — Yao Yao, Zuchao Li, and Hai Zhao, “Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Language Models” (2023).</summary>
 
-  [paper](https://arxiv.org/abs/2305.16582) | [Github](https://github.com/amazon-science/mm-cot) | —
+  [paper](https://arxiv.org/abs/2305.16582) | [Github](https://github.com/amazon-science/mm-cot)
 
 </details>
 
 <details>
   <summary>Multimodal-CoT — Yao Yao et al., “Multimodal Chain-of-Thought Reasoning in Language Models” (2023).</summary>
 
-  [paper](https://arxiv.org/abs/2302.00923) | [Github](https://github.com/amazon-science/mm-cot) | —
+  [paper](https://arxiv.org/abs/2302.00923) | [Github](https://github.com/amazon-science/mm-cot)
 
 </details>
 
 <details>
   <summary>PCoT — Lei Wang et al., “T-SciQ: Teaching Multimodal Chain-of-Thought Reasoning via Large Language Model Signals for Science Question Answering” (AAAI 2024).</summary>
 
-  [paper](https://arxiv.org/abs/2305.03453) | [Github](https://github.com/T-SciQ/T-SciQ) | —
+  [paper](https://arxiv.org/abs/2305.03453) | [Github](https://github.com/T-SciQ/T-SciQ)
 
   T-SciQ: Teaching Multimodal Chain-of-Thought Reasoning via Large Language Model Signals for Science Question Answering (AAAI 2024).
 
@@ -576,7 +576,7 @@ Captures methods that adapt model parameters, inject new supervision, or modify 
 <details>
   <summary>PS-CoT — Qun Li et al., “PS-CoT-Adapter: Adapting Plan-and-Solve Chain-of-Thought for ScienceQA” (Science China Information Sciences, 2025).</summary>
 
-  [paper](https://link.springer.com/article/10.1007/s11432-024-4211-9) | [Github](https://github.com/Sunhxxin/PS-CoT-Adapter) | —
+  [paper](https://link.springer.com/article/10.1007/s11432-024-4211-9) | [Github](https://github.com/Sunhxxin/PS-CoT-Adapter)
 
   PS-CoT-Adapter: Adapting Plan-and-Solve Chain-of-Thought for ScienceQA (Science China Information Sciences, 2025).
 
@@ -585,7 +585,6 @@ Captures methods that adapt model parameters, inject new supervision, or modify 
 <details>
   <summary>TVC — ACL 2025 (Visual conditioning via dynamic pruning; citation forthcoming).</summary>
 
-  — | — | —
   ACL 2025 (Visual conditioning via dynamic pruning; citation forthcoming).
 
 </details>
@@ -593,14 +592,14 @@ Captures methods that adapt model parameters, inject new supervision, or modify 
 <details>
   <summary>Visual-o1 — Minheng Ni et al., “Visual-o1: Understanding Ambiguous Instructions via Multi-modal Multi-turn Chain-of-Thoughts Reasoning” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2410.03321) | [Github](https://github.com/kodenii/Visual-o1) | —
+  [paper](https://arxiv.org/abs/2410.03321) | [Github](https://github.com/kodenii/Visual-o1)
 
 </details>
 
 <details>
   <summary>Virgo — Yifan Du et al., “Virgo: A Preliminary Exploration on Reproducing o1-like MLLM” (2025).</summary>
 
-  [paper](https://arxiv.org/abs/2501.01904) | [Github](https://github.com/RUCAIBox/Virgo) | —
+  [paper](https://arxiv.org/abs/2501.01904) | [Github](https://github.com/RUCAIBox/Virgo)
 
 </details>
 
@@ -618,6 +617,6 @@ Focuses on reinforcement learning or policy optimization steps that explicitly r
 <details>
   <summary>LLaVA-Reasoner — Ruohong Zhang et al., “Improve Vision Language Model Chain-of-Thought Reasoning” (2024).</summary>
 
-  [paper](https://arxiv.org/abs/2410.16198) | [Github](https://github.com/RifleZhang/LLaVA-Reasoner-DPO) | —
+  [paper](https://arxiv.org/abs/2410.16198) | [Github](https://github.com/RifleZhang/LLaVA-Reasoner-DPO)
 
 </details>
