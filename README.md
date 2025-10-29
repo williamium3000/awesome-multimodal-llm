@@ -153,10 +153,18 @@
 </details>
 
 <details>
-  
+
   <summary>Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization, 2024 -> MMPR</summary>
-  
+
   [paper](https://arxiv.org/abs/2411.10442) | [Github](https://github.com/OpenGVLab/InternVL/tree/main/internvl_chat/shell/internvl2.0_mpo) | [website](https://internvl.github.io/blog/2024-11-14-InternVL-2.0-MPO/)
+
+</details>
+
+<details>
+
+  <summary>Fine-Grained Preference Optimization Improves Spatial Reasoning in VLMs, 2025 -> FGPO</summary>
+
+  [paper](https://arxiv.org/abs/2506.21656) | — | [website](https://plan-lab.github.io/projects/spatialreasoner/)
 
 </details>
 
