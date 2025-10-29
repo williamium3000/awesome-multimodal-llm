@@ -164,7 +164,7 @@
 
   <summary>Fine-Grained Preference Optimization Improves Spatial Reasoning in VLMs, 2025 -> FGPO</summary>
 
-  [paper](https://arxiv.org/abs/2506.21656) | — | [website](https://plan-lab.github.io/projects/spatialreasoner/)
+  [paper](https://arxiv.org/abs/2506.21656) | [website](https://plan-lab.github.io/projects/spatialreasoner/)
 
 </details>
 
