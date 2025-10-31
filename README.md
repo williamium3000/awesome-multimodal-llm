@@ -612,6 +612,13 @@ Captures methods that adapt model parameters, inject new supervision, or modify 
 Focuses on reinforcement learning or policy optimization steps that explicitly reward improved multimodal reasoning behavior.
 
 <details>
+  <summary>R1-Onevision — Yi Yang et al., “R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization” (2025).</summary>
+
+  [paper](https://arxiv.org/pdf/2503.10615) | [Github](https://github.com/Fancy-MLLM/R1-onevision) | [website](https://huggingface.co/spaces/Fancy-MLLM/R1-OneVision)
+
+</details>
+
+<details>
   <summary>Deepseek-R1 — Daya Guo et al., “Deepseek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning” (2025).</summary>
 
   [paper](https://arxiv.org/abs/2501.12948) | [Github](https://github.com/deepseek-ai/DeepSeek-R1) | [website](https://www.deepseek.com/blog/deepseek-r1)
