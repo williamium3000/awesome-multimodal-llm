@@ -635,3 +635,12 @@ Focuses on reinforcement learning or policy optimization steps that explicitly r
 
 ### VCR
 
+### Commonsense Reasoning
+
+<details>
+  <summary>VisualCOMET — J. S. Park et al., “VisualCOMET: Reasoning About the Dynamic Context of a Still Image” (ECCV 2020).</summary>
+
+  [paper](https://doi.org/10.1007/978-3-030-58558-7_30) | [website](http://visualcomet.xyz/) | [Github](https://github.com/jamespark3922/visual-comet) | [dataset](https://storage.googleapis.com/ai2-mosaic/public/visualcomet/visualcomet.zip)
+
+</details>
+
