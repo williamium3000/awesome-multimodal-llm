@@ -627,6 +627,12 @@ Focuses on reinforcement learning or policy optimization steps that explicitly r
 
 ## Tasks, Benchark and Dataset
 
+<details>
+  <summary>Learn to Explain — Pan Lu et al., “Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering” (2022).</summary>
+
+  [paper](https://arxiv.org/abs/2209.09513) | [pdf](https://arxiv.org/pdf/2209.09513.pdf) | [Github](https://github.com/lupantech/ScienceQA) | [website](https://scienceqa.github.io/) | [dataset](https://huggingface.co/datasets/derek-thomas/ScienceQA)
+
+</details>
 
 
 ### OCR
