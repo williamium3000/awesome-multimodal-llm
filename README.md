@@ -627,6 +627,15 @@ Focuses on reinforcement learning or policy optimization steps that explicitly r
 
 ## Tasks, Benchark and Dataset
 
+<details>
+  <summary>MultiModalQA: Complex Question Answering over Text, Tables and Images, 2021 -> MultiModalQA</summary>
+
+  [paper](https://arxiv.org/abs/2104.06039) | [pdf](https://arxiv.org/pdf/2104.06039.pdf) | [Github](https://github.com/allenai/multimodalqa) | [Dataset](https://huggingface.co/datasets/allenai/multimodalqa) | [website](https://multimodalqa.allenai.org/)
+
+  **TLDR:** A 29,918-question benchmark that composes Wikipedia text, tables, and images into multi-hop queries, requiring cross-modal reasoning and program-guided answering where the ImplicitDecomp model reaches 51.7 F1 yet trails human performance at 90.1.
+
+</details>
+
 
 
 ### OCR
