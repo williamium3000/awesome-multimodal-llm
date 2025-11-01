@@ -642,7 +642,7 @@ Focuses on reinforcement learning or policy optimization steps that explicitly r
 
   [paper](https://doi.org/10.1007/978-3-030-58558-7_30) | [website](http://visualcomet.xyz/) | [Github](https://github.com/jamespark3922/visual-comet) | [dataset](https://storage.googleapis.com/ai2-mosaic/public/visualcomet/visualcomet.zip)
 
-  **TLDR:** Extends commonsense transformers to infer likely events before/after and people's intents from a single image by pairing image grounding with crowd-sourced event graphs and training neural models to generate plausible textual inferences.
+  **TLDR:** Introduces Visual Commonsense Graphs—59k VCR images with 1.4M crowd-annotated before, intent, and after hypotheses grounded to specific people and events—and trains a GPT-2-based vision-language transformer with ROI-aligned person features, event/place prompts, and auxiliary generation losses, showing that combining visual and textual cues yields far more accurate human-rated inferences than single-modality baselines.
 
 </details>
 
