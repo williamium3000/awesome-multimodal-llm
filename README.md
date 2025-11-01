@@ -658,3 +658,14 @@ Focuses on reinforcement learning or policy optimization steps that explicitly r
 
 ### VCR
 
+### Commonsense Reasoning
+
+<details>
+  <summary>VisualCOMET — J. S. Park et al., “VisualCOMET: Reasoning About the Dynamic Context of a Still Image” (ECCV 2020).</summary>
+
+  [paper](https://doi.org/10.1007/978-3-030-58558-7_30) | [website](http://visualcomet.xyz/) | [Github](https://github.com/jamespark3922/visual-comet) | [dataset](https://storage.googleapis.com/ai2-mosaic/public/visualcomet/visualcomet.zip)
+
+  **TLDR:** Introduces Visual Commonsense Graphs—59k VCR images with 1.4M crowd-annotated before, intent, and after hypotheses grounded to specific people and events—and trains a GPT-2-based vision-language transformer with ROI-aligned person features, event/place prompts, and auxiliary generation losses, showing that combining visual and textual cues yields far more accurate human-rated inferences than single-modality baselines.
+
+</details>
+
