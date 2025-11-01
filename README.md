@@ -642,5 +642,7 @@ Focuses on reinforcement learning or policy optimization steps that explicitly r
 
   [paper](https://doi.org/10.1007/978-3-030-58558-7_30) | [website](http://visualcomet.xyz/) | [Github](https://github.com/jamespark3922/visual-comet) | [dataset](https://storage.googleapis.com/ai2-mosaic/public/visualcomet/visualcomet.zip)
 
+  **TLDR:** Extends commonsense transformers to infer likely events before/after and people's intents from a single image by pairing image grounding with crowd-sourced event graphs and training neural models to generate plausible textual inferences.
+
 </details>
 
